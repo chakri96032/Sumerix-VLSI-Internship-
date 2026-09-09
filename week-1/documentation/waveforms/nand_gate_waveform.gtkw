@@ -1,0 +1,23 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Sep 09 20:28:31 2026
+[*]
+[dumpfile] "\\wsl.localhost\Ubuntu\home\chakradhar\sumerix-vlsi-internship-\week-1\documentation\waveforms\nand_gate.vcd"
+[dumpfile_mtime] "Wed Sep 09 20:21:41 2026"
+[dumpfile_size] 441
+[savefile] "\\wsl.localhost\Ubuntu\home\chakradhar\sumerix-vlsi-internship-\week-1\documentation\waveforms\nand_gate_waveform.gtkw"
+[timestart] 0
+[size] 907 600
+[pos] -1 -1
+*-14.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 197
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+tb_nand_gate.a
+tb_nand_gate.b
+@29
+tb_nand_gate.y
+[pattern_trace] 1
+[pattern_trace] 0
