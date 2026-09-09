@@ -1,0 +1,24 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Sep 09 21:09:23 2026
+[*]
+[dumpfile] "\\wsl.localhost\Ubuntu\home\chakradhar\sumerix-vlsi-internship-\week-1\documentation\waveforms\half_adder.vcd"
+[dumpfile_mtime] "Wed Sep 09 21:07:08 2026"
+[dumpfile_size] 505
+[savefile] "\\wsl.localhost\Ubuntu\home\chakradhar\sumerix-vlsi-internship-\week-1\documentation\waveforms\half_adder_waveform.gtkw"
+[timestart] 0
+[size] 845 600
+[pos] -1 -1
+*-14.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 197
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 143
+@28
+tb_half_adder.a
+tb_half_adder.b
+tb_half_adder.carry
+@29
+tb_half_adder.sum
+[pattern_trace] 1
+[pattern_trace] 0
