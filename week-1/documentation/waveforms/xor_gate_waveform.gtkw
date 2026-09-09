@@ -1,0 +1,23 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Sep 09 19:55:44 2026
+[*]
+[dumpfile] "\\wsl.localhost\Ubuntu\home\chakradhar\sumerix-vlsi-internship-\week-1\documentation\waveforms\xor_gate.vcd"
+[dumpfile_mtime] "Wed Sep 09 19:52:48 2026"
+[dumpfile_size] 443
+[savefile] "\\wsl.localhost\Ubuntu\home\chakradhar\sumerix-vlsi-internship-\week-1\documentation\waveforms\xor_gate_waveform.gtkw"
+[timestart] 4390
+[size] 1000 600
+[pos] -1 -1
+*-13.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 197
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+tb_xor_gate.a
+tb_xor_gate.b
+@29
+tb_xor_gate.y
+[pattern_trace] 1
+[pattern_trace] 0
