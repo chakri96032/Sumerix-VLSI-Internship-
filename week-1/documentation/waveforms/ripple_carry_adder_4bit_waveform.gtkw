@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Thu Sep 10 05:35:14 2026
+[*]
+[dumpfile] "\\wsl.localhost\Ubuntu\home\chakradhar\sumerix-vlsi-internship-\week-1\documentation\waveforms\ripple_carry_adder_4bit.vcd"
+[dumpfile_mtime] "Thu Sep 10 05:32:13 2026"
+[dumpfile_size] 1643
+[savefile] "\\wsl.localhost\Ubuntu\home\chakradhar\sumerix-vlsi-internship-\week-1\documentation\waveforms\ripple_carry_adder_4bit_waveform.gtkw"
+[timestart] 0
+[size] 845 600
+[pos] -124 -54
+*-14.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_ripple_carry_adder_4bit.
+[sst_width] 197
+[signals_width] 94
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@22
+tb_ripple_carry_adder_4bit.uut.a[3:0]
+tb_ripple_carry_adder_4bit.uut.b[3:0]
+@28
+tb_ripple_carry_adder_4bit.uut.c1
+tb_ripple_carry_adder_4bit.uut.c2
+tb_ripple_carry_adder_4bit.uut.c3
+tb_ripple_carry_adder_4bit.uut.cin
+tb_ripple_carry_adder_4bit.uut.cout
+@23
+tb_ripple_carry_adder_4bit.uut.sum[3:0]
+[pattern_trace] 1
+[pattern_trace] 0
