@@ -1,0 +1,41 @@
+D Flip-Flop Timing Analysis
+
+1. Clock Period
+The testbench uses:
+always #5 clk = ~clk;
+
+The clock changes every 5 ns.
+Therefore, the complete clock period is:
+
+Clock Period = 10 ns
+
+2. Clock Frequency
+Frequency = 1 / Clock Period
+Frequency = 1 / 10 ns
+Frequency = 100 MHz
+
+3. Positive-Edge Triggering
+The D flip-flop updates its output Q only at the rising edge
+of the clock.
+
+At the rising edge:
+Q <= D
+
+4. Reset
+When reset is active, Q is forced to 0 at the rising clock edge.
+
+5. Setup Time
+The input D should be stable for a minimum time before the
+active clock edge. This is called setup time.
+
+6. Hold Time
+The input D should remain stable for a minimum time after the
+active clock edge. This is called hold time.
+
+7. Timing Relationship
+D can change between clock edges, but Q changes only on the
+active rising edge of the clock.
+
+Conclusion:
+The D flip-flop is a synchronous sequential circuit controlled
+by the clock and reset signals.

@@ -1,0 +1,50 @@
+TRAFFIC LIGHT FSM - STATE TRANSITION DIAGRAM
+
+                    ┌──────────────┐
+                    │              │
+                    │  RED_STATE   │
+                    │     RED      │
+                    │              │
+                    └──────┬───────┘
+                           │
+                           │ next clock
+                           ▼
+                    ┌──────────────┐
+                    │              │
+                    │ GREEN_STATE  │
+                    │    GREEN     │
+                    │              │
+                    └──────┬───────┘
+                           │
+                           │ next clock
+                           ▼
+                    ┌──────────────┐
+                    │              │
+                    │YELLOW_STATE  │
+                    │    YELLOW    │
+                    │              │
+                    └──────┬───────┘
+                           │
+                           │ next clock
+                           ▼
+                    ┌──────────────┐
+                    │              │
+                    │  RED_STATE   │
+                    │     RED      │
+                    │              │
+                    └──────────────┘
+
+
+RESET:
+Reset = 1 → RED_STATE
+
+STATE SEQUENCE:
+RED → GREEN → YELLOW → RED → ...
+
+FSM TYPE:
+Moore FSM
+
+OUTPUTS:
+RED_STATE    → red = 1
+GREEN_STATE  → green = 1
+YELLOW_STATE → yellow = 1

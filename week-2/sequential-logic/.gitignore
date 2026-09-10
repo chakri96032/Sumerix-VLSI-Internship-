@@ -1,0 +1,4 @@
+verification/*_sim
+verification/*.vcd
+*.swp
+*:Zone.Identifier
