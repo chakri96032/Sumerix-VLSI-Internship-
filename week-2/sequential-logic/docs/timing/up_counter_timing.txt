@@ -1,0 +1,49 @@
+4-BIT UP COUNTER — TIMING DIAGRAM DESCRIPTION
+
+CLOCK:
+The clock period is 10 ns.
+
+CLK:
+0 → 1 → 0 → 1 → 0 → ...
+
+COUNTER:
+The output changes on every rising edge of CLK.
+
+RESET:
+During reset:
+Q = 0000
+
+After reset is released:
+
+Rising Edge 1 → Q = 0001
+Rising Edge 2 → Q = 0010
+Rising Edge 3 → Q = 0011
+Rising Edge 4 → Q = 0100
+Rising Edge 5 → Q = 0101
+Rising Edge 6 → Q = 0110
+Rising Edge 7 → Q = 0111
+Rising Edge 8 → Q = 1000
+
+TIMING RELATIONSHIP:
+
+CLK rising edge
+       │
+       ▼
+   Counter updates
+       │
+       ▼
+      Q changes
+
+Q remains stable between rising clock edges.
+
+SETUP TIME:
+Input control signals should be stable before the active
+clock edge.
+
+HOLD TIME:
+Input control signals should remain stable after the active
+clock edge for the required hold interval.
+
+CONCLUSION:
+The 4-bit up counter is a synchronous sequential circuit.
+Its output changes in response to the rising edge of the clock.

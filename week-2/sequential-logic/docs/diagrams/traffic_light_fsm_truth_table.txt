@@ -1,0 +1,20 @@
+TRAFFIC LIGHT FSM — STATE / OUTPUT TABLE
+
+CURRENT STATE    RED    YELLOW    GREEN    NEXT STATE
+------------------------------------------------------
+RED               1       0         0       GREEN
+GREEN             0       0         1       YELLOW
+YELLOW            0       1         0       RED
+
+RESET:
+RESET = 1 → RED_STATE
+
+STATE SEQUENCE:
+RED → GREEN → YELLOW → RED
+
+FSM TYPE:
+Moore FSM
+
+NOTE:
+The outputs depend only on the current state.
+Only one traffic light output is HIGH at a time.

@@ -1,0 +1,24 @@
+4-BIT JOHNSON COUNTER — TRUTH TABLE
+
+RESET    CLOCK EDGE       CURRENT Q       NEXT Q
+------------------------------------------------
+  1          ↑             XXXX          0000
+  0          ↑             0000          0001
+  0          ↑             0001          0011
+  0          ↑             0011          0111
+  0          ↑             0111          1111
+  0          ↑             1111          1110
+  0          ↑             1110          1100
+  0          ↑             1100          1000
+  0          ↑             1000          0000
+
+NOTE:
+↑ represents the rising edge of the clock.
+
+The inverted MSB is fed back to the LSB.
+
+STATE SEQUENCE:
+0000 → 0001 → 0011 → 0111 → 1111
+→ 1110 → 1100 → 1000 → 0000
+
+The Johnson counter has 8 unique states for 4 flip-flops.

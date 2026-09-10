@@ -1,0 +1,19 @@
+4-BIT RING COUNTER — TRUTH TABLE
+
+RESET    CLOCK EDGE       CURRENT Q       NEXT Q
+------------------------------------------------
+  1          ↑             XXXX          0001
+  0          ↑             0001          0010
+  0          ↑             0010          0100
+  0          ↑             0100          1000
+  0          ↑             1000          0001
+
+NOTE:
+↑ represents the rising edge of the clock.
+
+A single logic 1 circulates through the four register bits.
+
+STATE SEQUENCE:
+0001 → 0010 → 0100 → 1000 → 0001
+
+The sequence repeats continuously.
