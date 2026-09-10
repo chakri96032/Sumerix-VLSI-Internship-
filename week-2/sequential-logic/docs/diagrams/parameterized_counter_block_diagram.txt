@@ -1,0 +1,25 @@
+PARAMETERIZED N-BIT COUNTER — RTL BLOCK DIAGRAM
+
+                 ┌─────────────────────────┐
+                 │                         │
+CLK ────────────►│                         │
+                 │   PARAMETERIZED N-BIT   │────► Q[WIDTH-1:0]
+RESET ──────────►│        COUNTER          │
+                 │                         │
+                 └─────────────────────────┘
+
+PARAMETER:
+WIDTH defines the size of the counter.
+
+FUNCTION:
+The counter increments by 1 on every rising edge of CLK.
+
+RESET:
+When RESET is active, Q is set to 0.
+
+EXAMPLES:
+WIDTH = 4  →  Q[3:0]
+WIDTH = 8  →  Q[7:0]
+
+COUNT:
+0 → 1 → 2 → 3 → ... → maximum → 0

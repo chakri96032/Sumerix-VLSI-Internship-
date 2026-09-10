@@ -1,0 +1,23 @@
+PARAMETERIZED N-BIT REGISTER — RTL BLOCK DIAGRAM
+
+                 ┌─────────────────────────┐
+                 │                         │
+CLK ────────────►│                         │
+                 │    PARAMETERIZED        │────► Q[WIDTH-1:0]
+RESET ──────────►│      N-BIT REGISTER     │
+D[WIDTH-1:0] ──►│                         │
+                 │                         │
+                 └─────────────────────────┘
+
+PARAMETER:
+WIDTH defines the size of the register.
+
+FUNCTION:
+The register stores the input D on every rising edge of CLK.
+
+RESET:
+When RESET is active, Q is set to 0.
+
+EXAMPLES:
+WIDTH = 8  →  Q[7:0]
+WIDTH = 16 →  Q[15:0]

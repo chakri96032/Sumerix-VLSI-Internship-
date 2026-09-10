@@ -1,0 +1,28 @@
+TRAFFIC LIGHT FSM — STATE TRANSITION DIAGRAM
+
+        +-------+
+        |  RED  |
+        +---+---+
+            |
+            v
+      +-----+-----+
+      |   GREEN   |
+      +-----+-----+
+            |
+            v
+      +-----+-----+
+      |  YELLOW   |
+      +-----+-----+
+            |
+            v
+        +---+---+
+        |  RED  |
+        +-------+
+
+RESET:
+RESET = 1 -> RED STATE
+
+STATE OUTPUTS:
+RED     -> RED LIGHT ON
+GREEN   -> GREEN LIGHT ON
+YELLOW  -> YELLOW LIGHT ON

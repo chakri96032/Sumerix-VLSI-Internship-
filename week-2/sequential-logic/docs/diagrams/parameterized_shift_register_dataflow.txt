@@ -1,0 +1,18 @@
+PARAMETERIZED N-BIT SHIFT REGISTER — DATA FLOW
+
+SERIAL_IN ---> [Q0] -> [Q1] -> [Q2] -> ... -> [Q(N-1)]
+
+CLK controls shifting.
+
+DATA FLOW:
+1. SERIAL_IN enters first stage.
+2. Each bit shifts one position on every rising CLK edge.
+3. Last bit propagates to output stage.
+4. RESET clears all stages to 0.
+
+EXAMPLE (WIDTH=4):
+0000
+1000
+1100
+1110
+1111

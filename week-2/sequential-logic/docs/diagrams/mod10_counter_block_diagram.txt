@@ -1,0 +1,21 @@
+MOD-10 COUNTER — RTL BLOCK DIAGRAM
+
+                 ┌─────────────────────────┐
+                 │                         │
+CLK ────────────►│                         │
+                 │      MOD-10 COUNTER     │────► Q[3:0]
+RESET ──────────►│                         │
+                 │                         │
+                 └─────────────────────────┘
+
+FUNCTION:
+The counter counts from 0 to 9 and then returns to 0.
+
+RESET:
+When RESET is active, Q is set to 0000.
+
+COUNT SEQUENCE:
+0000 → 0001 → 0010 → ... → 1001 → 0000
+
+OUTPUT:
+Q[3:0] = 4-bit counter value.

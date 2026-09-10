@@ -1,0 +1,21 @@
+4-BIT RING COUNTER — RTL BLOCK DIAGRAM
+
+                 ┌─────────────────────────┐
+                 │                         │
+CLK ────────────►│                         │
+                 │      4-BIT RING         │────► Q[3:0]
+RESET ──────────►│        COUNTER          │
+                 │                         │
+                 └─────────────────────────┘
+
+FUNCTION:
+A single logic 1 circulates through the 4-bit register.
+
+RESET:
+When RESET is active, Q is set to 0001.
+
+COUNT SEQUENCE:
+0001 → 0010 → 0100 → 1000 → 0001
+
+OUTPUT:
+Q[3:0] = 4-bit ring counter value.

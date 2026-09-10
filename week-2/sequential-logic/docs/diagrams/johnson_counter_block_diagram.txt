@@ -1,0 +1,23 @@
+4-BIT JOHNSON COUNTER — RTL BLOCK DIAGRAM
+
+                 ┌─────────────────────────┐
+                 │                         │
+CLK ────────────►│                         │
+                 │     4-BIT JOHNSON       │────► Q[3:0]
+RESET ──────────►│        COUNTER          │
+                 │                         │
+                 └─────────────────────────┘
+
+FUNCTION:
+The inverted most-significant bit is fed back into the
+least-significant bit.
+
+RESET:
+When RESET is active, Q is set to 0000.
+
+COUNT SEQUENCE:
+0000 → 0001 → 0011 → 0111 → 1111
+→ 1110 → 1100 → 1000 → 0000
+
+OUTPUT:
+Q[3:0] = 4-bit Johnson counter value.

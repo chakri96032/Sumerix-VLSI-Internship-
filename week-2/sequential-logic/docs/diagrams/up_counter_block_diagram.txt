@@ -1,0 +1,18 @@
+4-BIT UP COUNTER — RTL BLOCK DIAGRAM
+
+                 ┌─────────────────────────┐
+                 │                         │
+CLK ────────────►│                         │
+                 │     4-BIT UP COUNTER    │────► Q[3:0]
+RESET ──────────►│                         │
+                 │                         │
+                 └─────────────────────────┘
+
+FUNCTION:
+The counter increments by 1 on every rising edge of CLK.
+
+RESET:
+When RESET is active, Q is set to 0000.
+
+OUTPUT:
+Q[3:0] = 4-bit counter value.

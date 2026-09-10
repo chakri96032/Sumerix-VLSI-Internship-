@@ -1,0 +1,23 @@
+PARAMETERIZED N-BIT SHIFT REGISTER — RTL BLOCK DIAGRAM
+
+                         ┌─────────────────────────┐
+                         │                         │
+CLK ────────────────────►│                         │
+RESET ──────────────────►│   PARAMETERIZED N-BIT   │────► Q[WIDTH-1:0]
+SERIAL_IN ──────────────►│     SHIFT REGISTER      │
+                         │                         │
+                         └─────────────────────────┘
+
+PARAMETER:
+WIDTH defines the size of the shift register.
+
+FUNCTION:
+The stored bits shift on every rising edge of CLK.
+SERIAL_IN is shifted into the register.
+
+RESET:
+When RESET is active, Q is set to 0.
+
+EXAMPLES:
+WIDTH = 4  →  Q[3:0]
+WIDTH = 8  →  Q[7:0]

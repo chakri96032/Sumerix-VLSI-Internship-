@@ -1,0 +1,45 @@
+TRAFFIC LIGHT FSM — RTL BLOCK DIAGRAM
+
+                    ┌──────────────────────┐
+                    │                      │
+CLK ───────────────►│   STATE REGISTER     │
+RESET ─────────────►│                      │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │                      │
+                    │   CURRENT STATE      │
+                    │ RED / GREEN / YELLOW │
+                    │                      │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │    NEXT-STATE LOGIC  │
+                    │                      │
+                    │ RED → GREEN          │
+                    │ GREEN → YELLOW       │
+                    │ YELLOW → RED         │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │    MOORE OUTPUT      │
+                    │       LOGIC          │
+                    └──────────┬───────────┘
+                               │
+                 ┌─────────────┼─────────────┐
+                 ▼             ▼             ▼
+              RED=1        YELLOW=1      GREEN=1
+
+RESET:
+RESET = 1 → RED_STATE
+
+FSM TYPE:
+Moore FSM
+
+OUTPUTS:
+RED_STATE    → RED light ON
+GREEN_STATE  → GREEN light ON
+YELLOW_STATE → YELLOW light ON
